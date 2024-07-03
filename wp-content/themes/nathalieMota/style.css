@@ -1,0 +1,15 @@
+/*
+Theme Name: Nathalie Mota
+Author: GitPixel
+Description: Create Theme for Photographer Nathalie Mota
+Require s at least: WordPress 5.0
+Version: 1.0
+*/
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+.admin-bar {
+    top: 32px;
+}
