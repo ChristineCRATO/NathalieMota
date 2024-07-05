@@ -1,0 +1,38 @@
+// FOOTER //
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    height: 40px;
+}
+
+.menuFooter {
+    width: 680px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+// @Media //
+@media (max-width: $SD) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        height: 220px;
+    }
+    .menuFooter {
+        width:110px;
+        height:160px;
+        display: flex;
+        align-items: normal;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}

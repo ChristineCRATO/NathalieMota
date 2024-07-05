@@ -1,0 +1,2 @@
+[05-Jul-2024 17:18:06 UTC] PHP Notice:  Trying to get property 'title' of non-object in /Applications/MAMP/htdocs/nathalieMota/wp-includes/class-wp-customize-widgets.php on line 905
+[05-Jul-2024 18:18:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 19
