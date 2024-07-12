@@ -20,28 +20,27 @@
     </head>
 
     <body <?php body_class(); ?>>
-        <header class="menuLogo">
-            <a href="<?php echo home_url( '/' ); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo.png" alt="logo du site">
-            </a>
-            
-            <!-- Bloc Menu -->
+        <header id="menuHeader" class="menuHeader">
+                <div class="menuLogo">
+                    <a href="<?php echo home_url( '/' ); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo.png" alt="logo du site">
+                    </a>
+                </div>
+            <!-- Bloc Menu SD Responsive -->
             <div class="menuBloc">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
             </div>
             <!-- Using wp_nav_menu function to display WP menu -->
-            <div class="menuNav">
-                <nav>
+                <nav id="menuNav" class="menuNav">
                     <?php wp_nav_menu(
                         array(
                         'theme_location' => 'menuHeader',
-                        'container' => 'false',
+                        'menu_class' => 'menuHeader', // Custom Menu
                         ));
                     ?>
                 </nav>
-            </div>
         </header>
 
         <?php wp_body_open(); ?>

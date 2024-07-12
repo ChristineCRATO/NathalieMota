@@ -1,17 +1,457 @@
-footer {
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.hidden {
+  display: none;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid black;
-  height: 40px;
+}
+
+.contactModal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1440px;
+  height: 80px;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+.menuHeader img {
+  width: 216px;
+  height: 14px;
+  margin-top: 31px;
+  margin-left: 146px;
+}
+
+.menuLogo {
+  width: 50%;
+}
+
+.menuNav {
+  width: 50%;
+  margin-top: 31px;
+  margin-right: 146px;
+}
+.menuNav a {
+  font-family: "SpaceMonoRegular";
+  font-size: 16px;
+  font-weight: 400;
+}
+.menuNav a a:hover {
+  font-weight: 100;
+}
+
+@media (max-width: 767px) {
+  header {
+    width: 375px;
+    height: 72px;
+  }
+  .menuHeader img {
+    width: 138px;
+    height: 9px;
+    margin-top: 32px;
+    margin-left: 40px;
+  }
+  .menuLogo {
+    width: 50%;
+  }
+  .menuNav {
+    width: 50%;
+    margin-top: 32px;
+    margin-right: 40px;
+  }
+  .menuNav a {
+    font-family: "SpaceMonoRegular";
+    font-size: 16px !important;
+    font-weight: 400;
+  }
+  .menuNav a a:hover {
+    font-weight: 100;
+  }
+  .active .line:nth-child(2) {
+    opacity: 0;
+  }
+  .active .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .active .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  width: 1440px;
+  height: 80px;
 }
 
 .menuFooter {
-  width: 680px;
+  display: flex;
+  justify-content: center;
+  height: 24px;
+  gap: 90px;
+}
+.menuFooter a, .menuFooter p {
+  text-transform: uppercase;
+  font-family: "SpaceMonoRegular";
+  font-size: 16px;
+  font-weight: 400;
 }
 
-ul {
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  margin-top: 0;
+}
+
+body {
+  font-family: "SpaceMonoRegular", sans-serif;
+  font-weight: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoRegular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMonoItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadAnimIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadAnimOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */

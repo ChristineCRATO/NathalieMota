@@ -13,14 +13,19 @@ add_theme_support( 'post-thumbnails' );
 // Add Function to load Styles & Scripts
 add_action('wp_enqueue_scripts', 'theme_mota_styles_scripts');
 
-// Add Function Save Custom Menus in the Theme
-function registerMenu () {
-    register_nav_menu('menuFooter', __('Menu Footer', 'nathalieMota')); // Save Menu Footer
-    register_nav_menu('menuHeader', __('Menu Header', 'nathalieMota')); // Save Menu Header
-}
-
-// Add Menu Registration to Theme Initialization
-add_action('after_setup_theme', 'registerMenu');
-
 // Automatically Add the Site Title in the Site Header
+function theme_slug_setup() {
 add_theme_support( 'title-tag');
+}
+add_action('after_setup_theme', 'theme_slug_setup');
+// Add Function Save Custom Menus in the Theme
+function registerMenus () {
+    register_nav_menus(
+        array(
+            'menuHeader' => 'Menu Header', // Save Menu Header
+            'menuFooter' => 'Menu Footer', // Save Menu Header
+        )
+    );
+}
+// Add Menu Registration to Theme Initialization
+add_action('init', 'registerMenus');

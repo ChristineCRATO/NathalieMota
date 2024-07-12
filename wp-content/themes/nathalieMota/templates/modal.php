@@ -1,5 +1,6 @@
+<button id="menu-item-46">Open Modal</button>
 <!-- CONTACT MODAL -->
-<div id="modal" class="overlayModal">
+<div id="modal" class="modalOverlay hidden">
     <div class="contactModal">
             
         <!-- Insert Modal Elements -->
@@ -15,4 +16,3 @@
         </div>
     </div>
 </div>
-

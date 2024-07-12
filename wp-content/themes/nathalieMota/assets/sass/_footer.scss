@@ -1,38 +1,25 @@
+@import "variables.scss";
+@import "fonts.scss";
+
 // FOOTER //
-
+body {
+    margin: 0;
+    padding: 0;
+}
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid black;
-    height: 40px;
+    width: 1440px;
+    height: 80px;
 }
-
-.menuFooter {
-    width: 680px;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-// @Media //
-@media (max-width: $SD) {
-    footer {
-        flex-direction: column;
-        justify-content: center;
-        height: 220px;
-    }
     .menuFooter {
-        width:110px;
-        height:160px;
         display: flex;
-        align-items: normal;
+        justify-content: center;
+        height: 24px;
+        gap: 90px;
+        a, p {
+            text-transform: uppercase;
+            font-family: "SpaceMonoRegular";
+            font-size: 16px;
+            font-weight: 400;        
+        }
     }
-    ul {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
