@@ -1,14 +1,13 @@
+// Variables //
 @import "variables.scss";
-@import "fonts.scss";
 
 // HEADER //
-
 body {
     margin: 0;
     padding: 0;
 }
 header {
-    width: 1440px;
+    width: 100%;
     height: 80px;
 }
     .menuHeader {

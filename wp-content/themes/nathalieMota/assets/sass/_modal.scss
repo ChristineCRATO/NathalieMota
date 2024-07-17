@@ -1,10 +1,15 @@
+// Variables //
 @import "variables.scss";
-@import "fonts.scss";
 
 // MODAL //
-
-.hidden {
-    display: none;
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
 }
 .modalOverlay {
     position: fixed;
@@ -16,10 +21,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 .contactModal {
     background: #fff;
-    padding: 20px;
-    border-radius: 5px;
+    max-width: 597px;
+    height: 700px;
     position: relative;
+    top: 2%;
+    border-radius: 2px;
+    padding: 8px 15px;
+    gap: 10px;
+    border: 3px solid black;
+}
+.hidden {
+    display: none;
+}
+.titleModal {
+    width: 100%;
+    overflow: hidden;
+}
+.contactImg {
+    width: 460px;
+    height: 48px;
+    margin: 0 -86px 14px -87px;
+}
+.labelModal {
+    padding: 60px 130px 10px 160px;
+}
+.wpcf7-text, .wpcf7-textarea {
+    width: 263px;
+    border-radius: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+.wpcf7-text {
+    height: 40px;
+    margin-bottom: 16px;
+}
+.wpcf7-textarea {
+    height: 210px;
+    margin-bottom: 20px;
+}
+.wpcf7-submit {
+    width: 263px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D8D8D8;
+    margin-bottom: 30px;
 }

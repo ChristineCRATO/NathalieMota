@@ -1,14 +1,16 @@
+// Variables //
 @import "variables.scss";
-@import "fonts.scss";
 
 // FOOTER //
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 0;
 }
 footer {
-    width: 1440px;
-    height: 80px;
+    max-width: 100%;
+    padding: 15px 30px;
+    border-top: 1px solid black;
+    box-shadow: 0 -2px rgba(0, 0, 0, 0.3);
 }
     .menuFooter {
         display: flex;

@@ -1,13 +1,10 @@
-<button id="menu-item-46">Open Modal</button>
 <!-- CONTACT MODAL -->
 <div id="modal" class="modalOverlay hidden">
-    <div class="contactModal">
-            
+    <div class="contactModal"> 
         <!-- Insert Modal Elements -->
         <div class="titleModal">
             <img class="contactImg" src="<?php echo get_theme_file_uri("/assets/img/Contact.png") . ''; ?>">
         </div>
-            
         <!-- Insert Modal Form -->
         <div class="labelModal">
                 <?php

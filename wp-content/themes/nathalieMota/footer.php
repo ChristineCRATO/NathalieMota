@@ -22,7 +22,7 @@
     </footer>
 
     <!-- Launch Contact Modal -->
-    <?php get_template('/templates/modal'); ?>
+    <?php get_template_part('/templates/modal'); ?>
 
     <?php wp_footer(); ?>
     </body>
