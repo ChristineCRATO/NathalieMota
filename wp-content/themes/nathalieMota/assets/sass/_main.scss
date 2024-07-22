@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "SpaceMonoRegular";
-    src: url("../assets/fonts/SpaceMono/SpaceMono-Regular.ttf");
+    src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -87,7 +87,7 @@ a:hover {
     color: black;
     font-weight: bold;
 }
-#text {
+h1 { // Delete Title Page
     display: none;
 }
 .wp-block-group__inner-container {
@@ -97,11 +97,13 @@ a:hover {
 .wp-block-group, .viePrive {
     line-height: 2.5;
     h2 {
+        font-family: "SpaceMonoRegular";
         font-size: 30px;
         font-weight: bold;
     }
     p {
-            font-size: 18px;
-            font-weight: 400;
+        font-family: "SpaceMonoRegular";
+        font-size: 18px;
+        font-weight: 400;
         }
 }

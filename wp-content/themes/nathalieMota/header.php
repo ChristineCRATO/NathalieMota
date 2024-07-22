@@ -3,7 +3,7 @@
  * 
  * @package WordPress
  * @subpackage Nathalie Mota "Header"
- * @since Twenty Twenty-One 1.0
+ * @since Nathalie MOTA 1.0
  * @author GitPixel
  * 
  */
@@ -22,7 +22,7 @@
     <body <?php body_class(); ?>>
         <header id="menuHeader" class="menuHeader">
                 <div class="menuLogo">
-                    <a href="<?php echo home_url( '/' ); ?>">
+                    <a href="<?php echo home_url( '/accueil' ); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo.png" alt="logo du site">
                     </a>
                 </div>

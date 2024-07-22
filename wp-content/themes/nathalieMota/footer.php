@@ -3,7 +3,7 @@
  * 
  * @package WordPress
  * @subpackage Nathalie Mota "Footer"
- * @since Twenty Twenty-One 1.0
+ * @since Nathalie MOTA 1.0
  * @author GitPixel
  * 
  */
