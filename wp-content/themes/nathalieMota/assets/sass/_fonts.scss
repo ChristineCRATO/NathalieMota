@@ -1,58 +1,58 @@
 // FONTS //
 
 @font-face {
-    font-family: "SpaceMonoRegular";
-    src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
-    font-weight: normal;
+    font-family: 'SpaceMonoRegular';
+    src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: "SpaceMonoBold";
-    src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
-    font-weight: normal;
+    font-family: 'SpaceMonoBold';
+    src: url('../fonts/SpaceMono/SpaceMono-Bold.ttf');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: "SpaceMonoBoldItalic";
-    src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
-    font-weight: normal;
+    font-family: 'SpaceMonoBoldItalic';
+    src: url('../fonts/SpaceMono/SpaceMono-BoldItalic.ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SpaceMonoItalic';
+    src: url('../fonts/Space_Mono/SpaceMono-Italic.ttf');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: "SpaceMonoItalic";
-    src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
-    font-weight: normal;
+    font-family: 'PoppinsItalic';
+    src: url('../fonts/Poppins/Poppins-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: "PoppinsBold";
-    src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "PoppinsItalic";
-    src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "PoppinsMedium";
-    src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "PoppinsRegular";
-    src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
-    font-weight: normal;
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
