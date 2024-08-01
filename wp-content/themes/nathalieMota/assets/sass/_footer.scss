@@ -1,5 +1,6 @@
-// Variables //
-@import "variables.scss";
+// Variables, Fonts... //
+@import "variables";
+@import "fonts";
 
 // FOOTER //
 body {
@@ -16,7 +17,8 @@ footer {
         display: flex;
         justify-content: center;
         height: 24px;
-        gap: 90px;
+        gap: 110px;
+        
         a, p {
             text-transform: uppercase;
             font-family: "SpaceMonoRegular";

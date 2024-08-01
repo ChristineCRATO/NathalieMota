@@ -4,13 +4,13 @@ jQuery(document).ready(function ($) {
     $(".arrow-left, .arrow-right").hover(
         function() {
             const thumbnailUrl = $(this).data("thumbnail-url");
-            $("#miniaturePhoto").css(
+            $("#smallPhoto").css(
                 "background-image",
                 "url('" + thumbnailUrl + "')"
             );
         },
         function () {
-            $("#miniaturePhoto").css("background-image", "none");
+            $("#smallPhoto").css("background-image", "none");
         }
     );
     $(".arrow-Left, .arrow-right").on("click", function () {

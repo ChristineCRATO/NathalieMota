@@ -1,27 +1,23 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package WordPress
- * @subpackage Nathalie Mota
- * @since Twenty Twenty-One 1.0
- * @author GitPixel
- *
- */
-?>
+<?php get_header();?>
 
-<?php get_header(); ?>
+<main>
 
-<!-- Start the Loop -->
-<div id="wrap">
-	<section id="content">
-			<?php if (have_posts()) : while (have_posts()):the_post(); ?>
-					<h1><?php the_title(); ?></h1>
-					<?php the_content(); ?>
-			<?php endwhile; endif; ?>
-	</section>
-</div>
+    <?php
+
+    if (have_posts()) :
+        while (have_posts()) : the_post();
+            // the_title('<h1>', '</h1>'); "Delete Page Title"
+            the_content();
+        endwhile;
+    endif;
+
+    // Templates Integration
+    if (is_front_page()) {
+    get_template_part('templates/photo_block_accueil');
+
+    }
+
+    ?>
+</main>
 
 <?php get_footer(); ?>

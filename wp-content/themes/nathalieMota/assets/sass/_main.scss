@@ -1,67 +1,8 @@
-// FONTS //
-
-@font-face {
-    font-family: "SpaceMonoRegular";
-    src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "SpaceMonoBold";
-    src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "SpaceMonoBoldItalic";
-    src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "SpaceMonoItalic";
-    src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "PoppinsBold";
-    src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "PoppinsItalic";
-    src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "PoppinsMedium";
-    src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "PoppinsRegular";
-    src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-// Variables //
-@import "variables.scss";
+// Variables, Fonts... //
+@import "variables";
+@import "fonts";
 
 // MAIN //
-
 html {
     margin-top: 0;
 }
@@ -87,9 +28,7 @@ a:hover {
     color: black;
     font-weight: bold;
 }
-h1 { // Delete Title Page
-    display: none;
-}
+
 .wp-block-group__inner-container {
     padding: 30px 15px;
     margin: 0 80px;

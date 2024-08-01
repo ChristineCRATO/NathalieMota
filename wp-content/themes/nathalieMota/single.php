@@ -9,16 +9,8 @@
  * @since Nathalie MOTA 1.0
  * @author GitPixel
  */
+?>
 
-get_header();
-
-if (have_posts()) {
-    while(have_posts()):the_post();
-        the_title();
-        the_content();
-endwhile;
-}
-
-get_template_part('/templates/single-photo');
-
-get_footer();
+<?php get_header(); ?>
+<?php get_template_part('templates/single-photo'); ?>
+<?php get_footer(); ?>

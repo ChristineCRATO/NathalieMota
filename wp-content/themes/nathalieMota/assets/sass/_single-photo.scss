@@ -1,0 +1,112 @@
+// Variables, Fonts... //
+@import "variables";
+@import "fonts";
+
+// Single-Photo Page
+.containerPhoto {
+    margin: 0 145px;
+}
+.infoPhoto {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2.3vw;
+}
+.contentPhoto {
+    width: 50%;
+
+        img {
+            width: 563px;
+            height: 844px;
+        }
+}
+.detailPhoto {
+    width: 450px;
+    border-bottom: 1px solid black;
+    height: 321px;
+    padding: 420px 180px 100px 0;
+}
+.detailPhoto h2 {
+    font-family: "SpaceMonoItalic" sans-serif;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+.taxoPhoto {
+    line-height: 45px;
+    margin-bottom: 58px;
+}
+
+// Contact Bloc - "Cette photo vous intéresse ?" //
+.blocContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 160px;
+    padding: 40px 0 20px ;
+    border-bottom: 1px solid black;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 8vw;
+}
+.pContact {
+    padding: 15px 0;
+    font-family: "PoppinsRegular" sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+button {
+    width: 272px;
+    height: 50px;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #d8d8d8;
+}
+.contact-modal {
+    
+}
+        // Mini Photos //
+        .miniPhoto {
+            display: flex;
+            padding-top: 50px;
+        }
+        .smallPhoto {
+            
+        }
+        .arrow {
+
+        }
+        .arrow-left {
+            cursor: pointer;
+        }
+        .arrow-right {
+            cursor: pointer;
+        }
+
+// Suggest Block - "Vous aimerez aussi !" //
+.blocSuggest {
+    display: flex;
+    flex-direction: column;
+}
+.titleSuggest h3 {
+    width: 220px;
+    height: 27px;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    margin-left: 160px;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "SpaceMonoRegular";
+    font-weight: 400;
+}
+.idemPhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 6%;
+    gap: 1.5vw;
+}

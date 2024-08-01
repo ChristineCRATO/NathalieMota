@@ -1,83 +1,59 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: white;
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.modalOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.contactModal {
-  background: #fff;
-  max-width: 585px;
-  height: 700px;
-  position: relative;
-  top: 2%;
-  border-radius: 2px;
-  padding: 8px 0;
-  border: 3px solid black;
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.hidden {
-  display: none;
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.containerTitleModal {
-  max-width: 585px;
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.titleModal1 {
-  background-image: url("../img/Contact.png");
-  background-size: contain;
-  height: 105px;
-  overflow: hidden;
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.labelModal {
-  padding: 40px 130px 10px 160px;
-  font-size: 12px;
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.wpcf7-text, .wpcf7-textarea {
-  width: 263px;
-  border-radius: 8px;
-  margin-top: 5px;
-  border: 1px solid black;
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.wpcf7-text {
-  height: 40px;
-  margin-bottom: 25px;
-}
-
-.wpcf7-textarea {
-  height: 200px;
-  margin-bottom: 20px;
-}
-
-.wpcf7-submit {
-  width: 263px;
-  height: 45px;
-  border-radius: 5px;
-  border: none;
-  background-color: #D8D8D8;
-  margin-bottom: 30px;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -155,31 +131,6 @@ header {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-body {
-  margin: 0;
-  padding-top: 0;
-}
-
-footer {
-  max-width: 100%;
-  padding: 15px 30px;
-  border-top: 1px solid black;
-  box-shadow: 0 -2px rgba(0, 0, 0, 0.3);
-}
-
-.menuFooter {
-  display: flex;
-  justify-content: center;
-  height: 24px;
-  gap: 90px;
-}
-.menuFooter a, .menuFooter p {
-  text-transform: uppercase;
-  font-family: "SpaceMonoRegular";
-  font-size: 16px;
-  font-weight: 400;
-}
-
 @font-face {
   font-family: "SpaceMonoRegular";
   src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
@@ -266,10 +217,6 @@ a:hover {
   font-weight: bold;
 }
 
-h1 {
-  display: none;
-}
-
 .wp-block-group__inner-container {
   padding: 30px 15px;
   margin: 0 80px;
@@ -287,4 +234,581 @@ h1 {
   font-family: "SpaceMonoRegular";
   font-size: 18px;
   font-weight: 400;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.contactModal {
+  background: #fff;
+  max-width: 585px;
+  height: 700px;
+  position: relative;
+  top: 2%;
+  border-radius: 2px;
+  padding: 8px 0;
+  border: 3px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+.containerTitleModal {
+  max-width: 585px;
+}
+
+.titleModal1 {
+  background-image: url("../img/Contact.png");
+  background-size: contain;
+  height: 105px;
+  overflow: hidden;
+}
+
+.labelModal {
+  padding: 40px 130px 10px 160px;
+  font-size: 12px;
+}
+
+.wpcf7-text, .wpcf7-textarea {
+  width: 263px;
+  border-radius: 8px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.wpcf7-text {
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+.wpcf7-textarea {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.wpcf7-submit {
+  width: 263px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: #D8D8D8;
+  margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.containerPhoto {
+  margin: 0 145px;
+}
+
+.infoPhoto {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2.3vw;
+}
+
+.contentPhoto {
+  width: 50%;
+}
+.contentPhoto img {
+  width: 563px;
+  height: 844px;
+}
+
+.detailPhoto {
+  width: 450px;
+  border-bottom: 1px solid black;
+  height: 321px;
+  padding: 420px 180px 100px 0;
+}
+
+.detailPhoto h2 {
+  font-family: "SpaceMonoItalic" sans-serif;
+  font-size: 66px;
+  font-weight: 400;
+  line-height: 58px;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+}
+
+.taxoPhoto {
+  line-height: 45px;
+  margin-bottom: 58px;
+}
+
+.blocContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 160px;
+  padding: 40px 0 20px;
+  border-bottom: 1px solid black;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 8vw;
+}
+
+.pContact {
+  padding: 15px 0;
+  font-family: "PoppinsRegular" sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+button {
+  width: 272px;
+  height: 50px;
+  border: none;
+  padding: 8px 15px 8px 15px;
+  background: #d8d8d8;
+}
+
+.miniPhoto {
+  display: flex;
+  padding-top: 50px;
+}
+
+.arrow-left {
+  cursor: pointer;
+}
+
+.arrow-right {
+  cursor: pointer;
+}
+
+.blocSuggest {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleSuggest h3 {
+  width: 220px;
+  height: 27px;
+  margin-top: 8%;
+  margin-bottom: 6%;
+  margin-left: 160px;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "SpaceMonoRegular";
+  font-weight: 400;
+}
+
+.idemPhoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 6%;
+  gap: 1.5vw;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.initialBlock {
+  width: 1148px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 30px 158px;
+  gap: 15px;
+}
+
+.photo_block {
+  position: relative;
+  width: 564px;
+  height: 495px;
+}
+.photo_block img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay:hover .icon_eye,
+.overlay:hover .icon_fullscreen {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0vw;
+  left: 0vh;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: opacity 0.3s, background-color 0.3s;
+}
+.overlay:hover {
+  background-color: none;
+  opacity: 1;
+}
+
+.icon_eye, .icon_fullscreen, .title_overlay, .categorie_overlay {
+  position: absolute;
+  display: none;
+}
+
+.photo_block:hover .icon_eye,
+.photo_block:hover .icon_fullscreen,
+.photo_block:hover .title_overlay,
+.photo_block:hover .categorie_overlay {
+  display: block; /* Afficher au survol */
+}
+
+.icon_eye {
+  top: 47%;
+  left: 45%;
+}
+
+.icon_fullscreen {
+  top: 1vw;
+  right: 1vw;
+  width: 2vw;
+  height: 2vw;
+  cursor: pointer;
+}
+
+.title_overlay, .categorie_overlay {
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+}
+
+.title_overlay {
+  left: 1vw;
+  bottom: 1vw;
+}
+
+.categorie_overlay {
+  bottom: 1vw;
+  right: 1vw;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding-top: 0;
+}
+
+footer {
+  max-width: 100%;
+  padding: 15px 30px;
+  border-top: 1px solid black;
+  box-shadow: 0 -2px rgba(0, 0, 0, 0.3);
+}
+
+.menuFooter {
+  display: flex;
+  justify-content: center;
+  height: 24px;
+  gap: 110px;
+}
+.menuFooter a, .menuFooter p {
+  text-transform: uppercase;
+  font-family: "SpaceMonoRegular";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }/*# sourceMappingURL=style.css.map */
