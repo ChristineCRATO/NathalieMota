@@ -4,3 +4,7 @@
 [31-Jul-2024 16:10:38 UTC] PHP Notice:  Undefined variable: annee in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/templates/single-photo.php on line 85
 [31-Jul-2024 16:10:38 UTC] PHP Notice:  Undefined variable: reference in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/templates/single-photo.php on line 95
 [31-Jul-2024 16:16:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /Applications/MAMP/htdocs/nathalieMota/wp-includes/Requests/src/Transport/Curl.php on line 552
+[02-Aug-2024 14:56:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
+[02-Aug-2024 14:56:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
+[02-Aug-2024 14:56:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
+[02-Aug-2024 14:57:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32

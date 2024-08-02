@@ -17,13 +17,19 @@ footer {
         display: flex;
         justify-content: center;
         height: 24px;
-        gap: 110px;
+        gap: 7.5vw;
         
         a, p {
             text-transform: uppercase;
             font-family: "SpaceMonoRegular";
-            font-size: 16px;
+            font-size: 1.1vw;
             font-weight: 400;        
         }
     }
-
+@media (max-width: $VSD) {
+    .menuFooter {
+        display: flex;
+        flex-direction: column;
+        height: 16vw;
+    }
+}

@@ -30,12 +30,12 @@ a:hover {
 }
 
 .wp-block-group__inner-container {
-    padding: 30px 15px;
-    margin: 0 80px;
+    padding: 2vw 1vw;
+    margin: 0 11vw;
 }
 .wp-block-group, .viePrive {
     line-height: 2.5;
-    h2 {
+    h3 {
         font-family: "SpaceMonoRegular";
         font-size: 30px;
         font-weight: bold;
@@ -45,4 +45,14 @@ a:hover {
         font-size: 18px;
         font-weight: 400;
         }
+}
+@media (max-width: $VSD) {
+    .wp-block-group, .viePrive {
+        h3 {
+            font-size: 4vw;
+        }
+        p {
+            font-size: 3vw;
+        }
+    }
 }

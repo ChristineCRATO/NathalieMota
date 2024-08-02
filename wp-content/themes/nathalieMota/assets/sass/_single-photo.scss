@@ -4,39 +4,73 @@
 
 // Single-Photo Page
 .containerPhoto {
-    margin: 0 145px;
+    margin: 0 11vw;
 }
 .infoPhoto {
     display: flex;
     flex-direction: row-reverse;
     gap: 2.3vw;
-    margin-top: 30px;
+    margin-top: 3vw;
 }
 .contentPhoto {
     width: 50%;
 
         img {
-            width: 563px;
-            height: 844px;
+            width: 39vw;
+            height: 57.5vw;
         }
 }
 .detailPhoto {
-    width: 450px;
     border-bottom: 1px solid black;
-    height: 321px;
-    padding: 420px 180px 100px 0;
-}
-.detailPhoto h2 {
-    font-family: "SpaceMonoItalic";
-    font-size: 66px;
-    font-weight: 400;
-    line-height: 58px;
-    text-transform: uppercase;
-    margin-bottom: 58px;
+    height: 21.9vw;
+    padding: 22.6vw 10vw 13vw 0;
+
+        h2 {
+            font-family: "SpaceMonoItalic";
+            font-weight: 400;
+            font-size: 5.5vw;
+            line-height: 5vw;
+            text-transform: uppercase;
+            margin-bottom: 2vw;
+        }
+        p {
+            font-family: "SpaceMonoRegular";
+            font-weight: 400;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+        }
 }
 .taxoPhoto {
-    line-height: 45px;
-    margin-bottom: 58px;
+    line-height: 3vw;
+    margin-bottom: 2vw;
+}
+@media (max-width: $VSD) {
+    .contentPhoto img {
+        width: 78vw;
+        height: 120vw;
+        margin-top: 3vw;
+    }
+    .infoPhoto {
+        display: flex;
+        flex-direction: column;
+    }
+    .detailPhoto {
+        padding: 2vw 11vw 70vw 0;
+        width: 100%;
+
+            h2 {
+                display: flex;
+                flex-direction: column;
+                font-size: 14vw;
+                line-height: 14vw;
+            }
+            p {
+                font-size: 5vw;
+            }
+    }
+    .taxoPhoto {
+        line-height: 10vw;
+    }
 }
 
 // Contact Bloc - "Cette photo vous intéresse ?" //
@@ -44,42 +78,65 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 140px;
-    padding: 40px 0 20px ;
+    margin: 0 11vw;
+    padding: 4vw 0 2vw 0;
     border-bottom: 1px solid black;
 }
 .contact {
     display: flex;
     flex-direction: row;
-    gap: 5vw;
+    gap: 2.2vw;
 }
 .pContact {
-    padding: 15px 0;
+    padding: 1vw 0;
     font-family: "PoppinsRegular" sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 1vw;
+    line-height: 1vw;
 }
 button {
-    width: 272px;
-    height: 50px;
+    width: 17.5vw;
+    height: 3.3vw;
     border: none;
-    padding: 8px 15px 8px 15px;
+    padding: 1vw 1vw;
+    margin-top: 3vw;
     background: #d8d8d8;
+    font-family: "SpaceMonoRegular";
+    font-weight: 400;
 }
 .contact-modal {
-    
+    color: blue;
 }
+@media (max-width: $VSD) {
+    .blocContact {
+        padding: 8vw 10vw;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .pContact {
+        font-size: 3.5vw;
+    }
+    button {
+        width: 78vw;
+        height: 15vw;
+        font-size: 5vw;
+    }
+}
+
         // Mini Photos //
         .miniPhoto {
             display: flex;
-            padding-top: 50px;
+            padding-top: 5vw;
         }
         .smallPhoto {
-            
+            color: pink;
         }
         .arrow {
-
+            color: yellow;
         }
         .arrow-left {
             cursor: pointer;
@@ -87,6 +144,11 @@ button {
         .arrow-right {
             cursor: pointer;
         }
+@media (max-width: $VSD) {
+    .miniPhoto {
+        display: none;
+    }
+}
 
 // Suggest Block - "Vous aimerez aussi !" //
 .blocSuggest {
@@ -94,13 +156,13 @@ button {
     flex-direction: column;
 }
 .titleSuggest h3 {
-    width: 220px;
+    width: 20vw;
     height: 27px;
-    margin-top: 8%;
-    margin-bottom: 6%;
-    margin-left: 160px;
-    font-size: 18px;
-    line-height: 26px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 11vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
     font-family: "SpaceMonoRegular";
     font-weight: 400;
 }
@@ -108,6 +170,17 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 6%;
-    gap: 1.5vw;
+    margin-bottom: 8%;
+    gap: 1vw;
+}
+@media (max-width: $VSD) {
+    .titleSuggest h3 {
+        width: 100%;
+        font-size: 6vw;
+    }
+    .idemPhoto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+    }
 }

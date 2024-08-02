@@ -14,12 +14,14 @@
     // Templates Integration
     if (is_front_page()) {
 
-        // Hero Template Integration //
+        // Integration Hero Template //
         get_template_part('templates/hero');
 
-        // Photo Block Accueil Integration //
+        // Integration Photo Block Accueil Template //
         get_template_part('templates/photo_block_accueil');
 
+        // Integration "Load More" Button Template //
+        get_template_part('templates/load-more');
     }
 
     ?>

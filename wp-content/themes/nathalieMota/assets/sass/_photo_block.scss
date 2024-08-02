@@ -4,17 +4,17 @@
 
 // Photo Block Accueil //
 .initialBlock {
-    width: 1148px;
+    width: 80vw;
     display: grid;
     grid-template-columns: auto auto;
-    margin: 30px 158px;
+    margin: 8vw 10vw;
     gap: 15px;
 
 }
 .photo_block {
     position: relative;
-    width: 564px;
-    height: 495px;
+    width: 39vw;
+    height: 35vw;
 
         & img {
             width: 100%;
@@ -22,13 +22,17 @@
             object-fit: cover;
         }
 }
-
 @media (max-width: $VSD) {
     .initialBlock {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
+    .photo_block {
+        width: 78vw;
+        height: 70vw;
+        padding: 1.5vw;
+    }
+    
 }
 // Photo Block Overlay //
 .overlay:hover .icon_eye,

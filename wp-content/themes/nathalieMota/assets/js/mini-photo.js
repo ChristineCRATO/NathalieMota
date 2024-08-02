@@ -1,4 +1,4 @@
-console.log("Mini-photo JS is Open");
+console.log("Mini-photo JS is Open !");
 
 jQuery(document).ready(function ($) {
     $(".arrow-left, .arrow-right").hover(

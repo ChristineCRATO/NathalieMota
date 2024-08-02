@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 966px;
+    height: 53vw;
     margin-bottom: 90px;
     
         img {
@@ -34,16 +34,4 @@ h1 {
     font-size: 6vw;
     font-weight: 700;
     line-height: 14vw;
-}
-@media (max-width: $SD) {
-    .photoHero {
-        height: 80%;
-        width: 100%;
-    }
-}
-@media (max-width: $VSD) {
-    .photoHero {
-        height: 100%;
-        width: 100%;
-    }
 }
