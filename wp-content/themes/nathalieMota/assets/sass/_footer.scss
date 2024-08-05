@@ -9,14 +9,14 @@ body {
 }
 footer {
     max-width: 100%;
-    padding: 15px 30px;
     border-top: 1px solid black;
     box-shadow: 0 -2px rgba(0, 0, 0, 0.3);
 }
     .menuFooter {
         display: flex;
         justify-content: center;
-        height: 24px;
+        align-items: center;
+        height: 40px;
         gap: 7.5vw;
         
         a, p {
@@ -30,6 +30,23 @@ footer {
     .menuFooter {
         display: flex;
         flex-direction: column;
-        height: 16vw;
+        justify-content: center;
+        align-items: center;
+        height: 80vw;
+
+        a, p {
+            font-size: 4vw;
+        }
+    
+        p {
+            margin-bottom: 13vw;
+        }
+
+        a {
+            gap: 6vw;
+        }
+    }
+    #menu .menuFooter {
+        border: none;
     }
 }

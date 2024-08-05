@@ -11,6 +11,7 @@
 ?>
 
 <!-- CONTACT MODAL -->
+ 
 <div id="modal" class="modalOverlay hidden">
     <div class="contactModal"> 
         <!-- Insert Modal Elements -->

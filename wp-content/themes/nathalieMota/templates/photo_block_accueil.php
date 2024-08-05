@@ -11,6 +11,7 @@
 ?>
 
 <!-- Home Page Photo Block -->
+ 
 <div class="initialBlock">
  <?php
  // Get 8 Photos for Initial Block

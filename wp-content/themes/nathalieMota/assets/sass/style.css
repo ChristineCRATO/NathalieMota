@@ -529,28 +529,27 @@ a:hover {
   font-display: swap;
 }
 .containerPhoto {
-  margin: 0 11vw;
+  width: 100%;
 }
 
 .infoPhoto {
   display: flex;
   flex-direction: row-reverse;
-  gap: 2.3vw;
-  margin-top: 3vw;
+  gap: 2vw;
+  margin: 3vw 10vw 0 0;
 }
 
-.contentPhoto {
-  width: 50%;
-}
 .contentPhoto img {
   width: 39vw;
   height: 57.5vw;
 }
 
 .detailPhoto {
-  border-bottom: 1px solid black;
+  width: 40%;
   height: 21.9vw;
-  padding: 22.6vw 10vw 13vw 0;
+  margin-top: auto;
+  border-bottom: 1px solid black;
+  padding-bottom: 8vw;
 }
 .detailPhoto h2 {
   font-family: "SpaceMonoItalic";
@@ -579,11 +578,12 @@ a:hover {
     margin-top: 3vw;
   }
   .infoPhoto {
+    width: 50%;
     display: flex;
     flex-direction: column;
   }
   .detailPhoto {
-    padding: 2vw 11vw 70vw 0;
+    padding: 2vw 11vw 110vw 0;
     width: 100%;
   }
   .detailPhoto h2 {
@@ -602,21 +602,23 @@ a:hover {
 .blocContact {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 0 11vw;
+  justify-content: center;
+  margin: 0 10vw;
   padding: 4vw 0 2vw 0;
   border-bottom: 1px solid black;
+  gap: 36vw;
 }
 
 .contact {
   display: flex;
   flex-direction: row;
-  gap: 2.2vw;
+  margin-right: 1vw;
+  gap: 7.1vw;
 }
 
 .pContact {
   padding: 1vw 0;
-  font-family: "PoppinsRegular" sans-serif;
+  font-family: "PoppinsRegular";
   font-weight: 300;
   font-size: 1vw;
   line-height: 1vw;
@@ -626,15 +628,10 @@ button {
   width: 17.5vw;
   height: 3.3vw;
   border: none;
-  padding: 1vw 1vw;
-  margin-top: 3vw;
   background: #d8d8d8;
   font-family: "SpaceMonoRegular";
+  font-size: 1.3vw;
   font-weight: 400;
-}
-
-.contact-modal {
-  color: blue;
 }
 
 @media (max-width: 480px) {
@@ -659,14 +656,6 @@ button {
 .miniPhoto {
   display: flex;
   padding-top: 5vw;
-}
-
-.smallPhoto {
-  color: pink;
-}
-
-.arrow {
-  color: yellow;
 }
 
 .arrow-left {
@@ -704,7 +693,7 @@ button {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 8%;
-  gap: 1vw;
+  gap: 1.5vw;
 }
 
 @media (max-width: 480px) {
@@ -778,7 +767,7 @@ button {
   width: 80vw;
   display: grid;
   grid-template-columns: auto auto;
-  margin: 8vw 10vw;
+  margin: 0 10vw;
   gap: 15px;
 }
 
@@ -924,6 +913,77 @@ button {
   font-style: normal;
   font-display: swap;
 }
+#load-more {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+  margin-top: 1vw;
+  margin-left: -0.5vw;
+}
+
+#btn-more {
+  font-size: 1vw;
+  margin: 3vw;
+}
+
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../fonts/Space_Mono/SpaceMono-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../fonts/SpaceMono/SpaceMono-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: url("../fonts/SpaceMono/SpaceMono-BoldItalic.ttf");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../fonts/Space_Mono/SpaceMono-Italic.ttf");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("../fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   margin: 0;
   padding-top: 0;
@@ -931,7 +991,6 @@ body {
 
 footer {
   max-width: 100%;
-  padding: 15px 30px;
   border-top: 1px solid black;
   box-shadow: 0 -2px rgba(0, 0, 0, 0.3);
 }
@@ -939,7 +998,8 @@ footer {
 .menuFooter {
   display: flex;
   justify-content: center;
-  height: 24px;
+  align-items: center;
+  height: 40px;
   gap: 7.5vw;
 }
 .menuFooter a, .menuFooter p {
@@ -953,7 +1013,21 @@ footer {
   .menuFooter {
     display: flex;
     flex-direction: column;
-    height: 16vw;
+    justify-content: center;
+    align-items: center;
+    height: 80vw;
+  }
+  .menuFooter a, .menuFooter p {
+    font-size: 4vw;
+  }
+  .menuFooter p {
+    margin-bottom: 13vw;
+  }
+  .menuFooter a {
+    gap: 6vw;
+  }
+  #menu .menuFooter {
+    border: none;
   }
 }
 @font-face {

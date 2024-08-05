@@ -4,26 +4,26 @@
 
 // Single-Photo Page
 .containerPhoto {
-    margin: 0 11vw;
+    width: 100%;
 }
 .infoPhoto {
     display: flex;
     flex-direction: row-reverse;
-    gap: 2.3vw;
-    margin-top: 3vw;
+    gap: 2vw;
+    margin: 3vw 10vw 0 0;
 }
 .contentPhoto {
-    width: 50%;
-
         img {
             width: 39vw;
             height: 57.5vw;
         }
 }
 .detailPhoto {
-    border-bottom: 1px solid black;
+    width: 40%;
     height: 21.9vw;
-    padding: 22.6vw 10vw 13vw 0;
+    margin-top: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 8vw;
 
         h2 {
             font-family: "SpaceMonoItalic";
@@ -51,11 +51,12 @@
         margin-top: 3vw;
     }
     .infoPhoto {
+        width: 50%;
         display: flex;
         flex-direction: column;
     }
     .detailPhoto {
-        padding: 2vw 11vw 70vw 0;
+        padding: 2vw 11vw 110vw 0;
         width: 100%;
 
             h2 {
@@ -77,19 +78,21 @@
 .blocContact {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 11vw;
+    justify-content: center;
+    margin: 0 10vw;
     padding: 4vw 0 2vw 0;
     border-bottom: 1px solid black;
+    gap: 36vw;
 }
 .contact {
     display: flex;
     flex-direction: row;
-    gap: 2.2vw;
+    margin-right: 1vw;
+    gap: 7.1vw;
 }
 .pContact {
     padding: 1vw 0;
-    font-family: "PoppinsRegular" sans-serif;
+    font-family: "PoppinsRegular";
     font-weight: 300;
     font-size: 1vw;
     line-height: 1vw;
@@ -98,14 +101,13 @@ button {
     width: 17.5vw;
     height: 3.3vw;
     border: none;
-    padding: 1vw 1vw;
-    margin-top: 3vw;
     background: #d8d8d8;
     font-family: "SpaceMonoRegular";
+    font-size: 1.3vw;
     font-weight: 400;
 }
 .contact-modal {
-    color: blue;
+
 }
 @media (max-width: $VSD) {
     .blocContact {
@@ -126,17 +128,19 @@ button {
         font-size: 5vw;
     }
 }
-
+@media (max-width: $SD) {
+    
+}
         // Mini Photos //
         .miniPhoto {
             display: flex;
             padding-top: 5vw;
         }
         .smallPhoto {
-            color: pink;
+
         }
         .arrow {
-            color: yellow;
+
         }
         .arrow-left {
             cursor: pointer;
@@ -171,7 +175,7 @@ button {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 8%;
-    gap: 1vw;
+    gap: 1.5vw;
 }
 @media (max-width: $VSD) {
     .titleSuggest h3 {

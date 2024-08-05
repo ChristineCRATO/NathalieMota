@@ -8,3 +8,70 @@
 [02-Aug-2024 14:56:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
 [02-Aug-2024 14:56:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
 [02-Aug-2024 14:57:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
+[03-Aug-2024 18:39:59 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[03-Aug-2024 18:46:20 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 18:46:38 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 18:52:55 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 19:39:03 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:05:20 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:08:38 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:11:15 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:11:29 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:11:36 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:18:04 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:18:10 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:23:05 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:23:26 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:24:01 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:27:23 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[03-Aug-2024 20:27:30 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:06:51 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:07:22 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:07:48 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:08:12 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:08:26 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:08:35 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:08:51 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:09:14 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:09:21 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:09:23 UTC] PHP Notice:  Undefined index: page in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 60
+[04-Aug-2024 17:45:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting '(' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 115
+[04-Aug-2024 17:45:09 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/nathalieMota/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[04-Aug-2024 17:45:09 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/nathalieMota/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[04-Aug-2024 17:47:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting '(' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 115
+[04-Aug-2024 17:49:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting '(' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 117
+[04-Aug-2024 17:51:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting '(' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 117
+[04-Aug-2024 17:53:13 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 17:55:14 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 17:57:15 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 17:59:16 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:01:17 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:03:18 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:05:19 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:07:20 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:09:21 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:11:22 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:13:23 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:15:24 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:17:25 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:19:26 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:21:27 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:23:28 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:25:29 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:27:30 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:29:31 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:31:32 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:33:33 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:35:34 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:37:35 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:39:36 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:41:37 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:43:38 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:46:13 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:48:14 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:50:15 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:52:16 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:54:17 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:56:18 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 18:58:19 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120
+[04-Aug-2024 19:00:20 UTC] PHP Parse error:  syntax error, unexpected ''tax_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 120

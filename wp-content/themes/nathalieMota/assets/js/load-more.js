@@ -1,19 +1,21 @@
 console.log("Load More JS is Open !");
 
 // Select ID "load more" Button
-const btnLoadMore = document.getElementById('load-more');
+const btnLoadMore = document.getElementById('btn-more');
 
 // Define Variables 
-const offset = 0;
+let offset = 0;
 const category = '';
 const format = '';
 
 // EvenListener "load more" button click
-btnLoadMore.addEventListener('click', () => {
-    
+btnLoadMore.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent Default Behavior Link
+            console.log('Modal "Load More" is Open');
+            
     // Use "load more" Content
     $.ajax({
-        url: myUrlAjax.ajaxurl,
+        url: myUrlAjax.ajaxurl, // Use Localized Variable
         type: 'POST',
         data: {
             offset: offset,
@@ -23,15 +25,15 @@ btnLoadMore.addEventListener('click', () => {
         },
             beforeSend: function () {
                 // Message for Loading in Progress
-                btnLoadMore.text('Chargement en cours...');
+                btnLoadMore.textContent = 'Chargement en cours...';
             },
             success: function (data) {
                 if (data === "no_posts") {
-                    btnLoadMore.text('Aucune Photo Disponible');
+                    btnLoadMore.textContent = 'Aucune Photo Disponible';
                 } else if (data) {
-                    btnLoadMore.data('page', btn.data('page') +1);
-                    $('#btnCharge+').before($(data));
-                    btn.text('Charger Plus');
+                    offset += 1; // Increment Offset
+                    $('#btn-more').before($(data));
+                    btnLoadMore.textContent = 'Charger Plus';
                 }
             },
             error: function (jqXHR, textStatus, errorThrown) {
@@ -39,7 +41,7 @@ btnLoadMore.addEventListener('click', () => {
                 console.error('Error During AJAX Request:', textStatus, errorThrown);
 
                 // Update Button Text to Inform the User
-                btnLoadMore.text('Error Loading Content');
+                btnLoadMore.textContent = 'Error Loading Content';
             },
     });
 })

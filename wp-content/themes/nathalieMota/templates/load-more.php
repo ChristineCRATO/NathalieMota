@@ -10,7 +10,7 @@
  */
 ?>
 
-<!-- "Load More" Button -->
+<!-- Load More" Button -->
 
 <section id="load-more" class="load-more">
 

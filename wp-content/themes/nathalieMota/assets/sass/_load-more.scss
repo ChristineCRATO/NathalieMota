@@ -1,0 +1,18 @@
+// Variables, Fonts... //
+@import "variables";
+@import "fonts";
+
+// LOAD-MORE "Charger Plus" //
+#load-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    margin-top: 1vw;
+    margin-left: -0.5vw;
+}
+#btn-more {
+    font-size: 1vw;
+    margin: 3vw;
+}

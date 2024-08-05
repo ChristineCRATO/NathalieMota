@@ -10,6 +10,8 @@
  */
 ?>
 
+<!-- SINGLE-PHOTO -->
+ 
 <?php
 // Retrieve ACF Fields
 $photoID = get_field('photo');

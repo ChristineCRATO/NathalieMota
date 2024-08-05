@@ -9,6 +9,9 @@
  * 
  */
 ?>
+
+<!-- HERO -->
+ 
 <div class="photoHero">
     <h1>Photographe Event</h1>
 
