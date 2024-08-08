@@ -1,23 +1,23 @@
-console.log("Header JS is Open !");
+console.log("Header Menu Burger JS is Open !");
 
 //Listen DOM Before Script Execution
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', function () {
     // Declare Variables Menu Header
-    const menuBloc = document.querySelector(".menuBloc"); // Selected Menu
-    const menuNav = document.querySelector(".menuNav"); // Selected Nav
-    const menuLinks = document.querySelectorAll(".navMenu a"); // Selected Links
+    const menuBlock = document.querySelector('.menuBlock'); // Selected Menu
+    const menuNav = document.querySelector('.menuNav'); // Selected Nav
+    const menuLinks = document.querySelectorAll('.menuNav a'); // Selected Links
 
     // Listen Clic Menu
-    menuBloc.addEventListener("click", function () {
-        menuBloc.classList.toggle("active"); // Add Or Remove "Active" class Menu
-        menuNav.classList.toggle("active"); // Add Or Remove "Active" class Nav
+    menuBlock.addEventListener('click', function () {
+        menuBlock.classList.toggle('active'); // Add Or Remove "Active" class Menu
+        menuNav.classList.toggle('active'); // Add Or Remove "Active" class Nav
     });
 
     // Explore Navigatin Links
     menuLinks.forEach(function (link) {
-        link.addEventListener("click", function () { // Listen Clic Links
-            menuBloc.classList.remove("active"); // Delete "Active" class Menu
-            menuNav.classList.remove("active"); // Delete "Active" class Nav
+        link.addEventListener('click', function () { // Listen Clic Links
+            menuBlock.classList.remove('active'); // Delete "Active" class Menu
+            menuNav.classList.remove('active'); // Delete "Active" class Nav
         });
     });
 });

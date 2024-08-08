@@ -47,7 +47,7 @@ $categorie = !empty($categories) ? $categories[0]->name : '';
          </div>
 
         <!-- Add Fullscreen Icon with Date Attributes -->
-         <div class="icon_fullscreen" data-full="<?php echo esc_attr($photo); ?>" data-category="<?php echo esc_attr($categorie); ?>" data-reference="<?php echo esc_attr($reference); ?>">
+         <div class="icon_fullscreen" data-full="<?php echo esc_attr($photo); ?>" data-categorie="<?php echo esc_attr($categorie); ?>" data-reference="<?php echo esc_attr($reference); ?>">
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/Icon_fullscreen.svg" alt="icône fullscreen">
          </div>
      </div>

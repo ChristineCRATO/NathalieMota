@@ -1,0 +1,75 @@
+// Variables, Fonts... //
+@import "variables";
+@import "fonts";
+
+// LIGHTBOX //
+
+.blockLightbox {
+
+}
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+.contLightbox {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.categorieLightbox, .referenceLightbox {
+    position: absolute;
+    font-family: "PoppinsRegular";
+    font-weight: 500;
+    z-index: 1;
+    color:red;
+    top: 40vw;
+}
+.referenceLightbox {
+    left: 21.5vw;
+}
+.categorieLightbox {
+    right:21.5vw;
+}
+.closeLightbox {
+    position: fixed;
+    top: 3vw;
+    right: 10.5vw;
+    cursor: pointer;
+}
+.previousLightbox, .nextLightbox {
+    position: fixed;
+    top: 23vw;
+    cursor: pointer;
+        
+        &:hover {
+            font-weight: 900;
+        }
+}
+    .previousLightbox {
+        left: 10.5vw;
+    }
+    .nextLightbox {
+        right: 10.5vw;
+    }
+.blockImgLightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: contain;
+}
+.imgLightbox {
+    max-width: 100%;
+    max-height: 80%;
+}

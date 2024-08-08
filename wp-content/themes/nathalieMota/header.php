@@ -27,7 +27,7 @@
                     </a>
                 </div>
             <!-- Bloc Menu SD Responsive -->
-            <div class="menuBloc">
+            <div class="menuBlock">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>

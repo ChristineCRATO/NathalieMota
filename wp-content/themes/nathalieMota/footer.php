@@ -23,6 +23,7 @@
 
     <!-- Launch Contact Modal -->
     <?php get_template_part('/templates/modal'); ?>
+    <?php get_template_part('/templates/lightbox'); ?>
 
     <?php wp_footer(); ?>
     </body>
