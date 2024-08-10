@@ -10,9 +10,29 @@
     align-items: center;
     gap: 1.5vw;
     margin-top: 1vw;
-    margin-left: -0.5vw;
+    margin-left: 9.7vw;
+    clear: both;
+    width: 80vw;
 }
 #btn-more {
-    font-size: 1vw;
-    margin: 3vw;
-}
+    width: 18vw;
+    height: 3.5vw;
+    font-size: 1.5vw;
+    margin-bottom: 6vw;
+    background: #d8d8d8;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}       
+#btn-more:hover {
+            background-color: black;
+            color: white;
+        }
+
+    @media (max-width: $VSD) {
+        #btn-more {
+            width: 78vw;
+            height: 15vw;
+            font-size: 5vw;
+            margin-bottom: 6vw;
+        }
+    }

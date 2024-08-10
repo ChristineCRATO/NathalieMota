@@ -26,50 +26,90 @@ body, html {
 }
 .contactModal {
     background: #fff;
-    max-width: 585px;
-    height: 700px;
+    width: 40vw;
+    height: 48vw;
     position: relative;
     top: 2%;
     border-radius: 2px;
     padding: 8px 0;
     border: 3px solid black;
 }
+    @media (max-width: $VSD) {
+        .contactModal {
+            width: 80%;
+            height: 80%;
+        }
+    }
+
 .hidden {
     display: none;
 }
-.containerTitleModal {
-    max-width: 585px;
-}
+
 .titleModal1 {
     background-image: url('../img/Contact.png');
     background-size: contain;
-    height: 105px;
+    height: 7.1vw;
     overflow: hidden;
 }
+    @media (max-width: $VSD) {
+        .titleModal1 {
+            height: 14vw;
+        }
+    }
 
 .labelModal {
-    padding: 40px 130px 10px 160px;
-    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 2.2vw 17vw;
+    font-size: 0.9vw;
 }
+    @media (max-width: $VSD) {
+        .labelModal {
+            font-size: 3vw;
+        }
+    }
 .wpcf7-text, .wpcf7-textarea {
-    width: 263px;
-    border-radius: 8px;
-    margin-top: 5px;
+    width: 17vw;
+    border-radius: 0.5vw;
+    margin-top: 0.3vw;
     border: 1px solid black;
 }
+    @media (max-width: $VSD) {
+        .wpcf7-text, .wpcf7-textarea {
+            width: 70vw;  
+            border-radius: 2.5vw; 
+        }
+    }
 .wpcf7-text {
-    height: 40px;
-    margin-bottom: 25px;
+    height: 2.7vw;
+    margin-bottom: 1vw;
 }
+    @media (max-width: $VSD) {
+        .wpcf7-text {
+            height: 10vw;
+        }
+    }
 .wpcf7-textarea {
-    height: 170px;
-    margin-bottom: 20px;
+    height: 12.5vw;
+    margin-bottom: 0.3vw;
 }
+    @media (max-width: $VSD) {
+        .wpcf7-textarea {
+            height: 40vw;
+        }
+    }
 .wpcf7-submit {
-    width: 263px;
-    height: 45px;
-    border-radius: 5px;
+    width: 17vw;
+    height: 3vw;
+    border-radius: 0.5vw;
     border: none;
     background-color: #D8D8D8;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
 }
+    @media (max-width: $VSD) {
+        .wpcf7-submit{
+            width: 70vw;
+            height: 17vw;
+            border-radius: 2.5vw;
+        }
+    }

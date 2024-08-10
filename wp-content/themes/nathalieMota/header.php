@@ -26,7 +26,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo.png" alt="logo du site">
                     </a>
                 </div>
-            <!-- Bloc Menu SD Responsive -->
+            <!-- Bloc Menu VSD Responsive -->
             <div class="menuBlock">
                 <span class="line"></span>
                 <span class="line"></span>

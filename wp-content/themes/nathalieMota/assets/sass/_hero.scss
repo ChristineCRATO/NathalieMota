@@ -21,6 +21,11 @@
             height: 100%;
         }
 }
+            @media (max-width: $VSD) {
+                .photoHero img {
+                    height: 72vw;
+                }
+            }
 h1 {
     position:absolute;
     display: flex;
@@ -29,9 +34,14 @@ h1 {
     z-index: 1;
     text-transform: uppercase;
     color: transparent;
-    -webkit-text-stroke: 3px #ffffff;
+    -webkit-text-stroke: 0.3vw white;
     font-family: "SpaceMonoItalic";
     font-size: 6vw;
     font-weight: 700;
     line-height: 14vw;
 }
+    @media (max-width: $VSD) {
+        h1 {
+            font-size: 7vw;
+        }
+    }

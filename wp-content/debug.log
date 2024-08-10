@@ -189,3 +189,4 @@ Stack trace:
 [07-Aug-2024 09:32:26 UTC] Limit: 8
 [07-Aug-2024 09:32:26 UTC] Categorie: 
 [07-Aug-2024 09:32:26 UTC] Format: 
+[10-Aug-2024 14:43:37 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
