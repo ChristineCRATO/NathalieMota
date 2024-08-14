@@ -19,11 +19,11 @@ btnLoadMore.addEventListener('click', function(event) {
         url: myUrlAjax.ajaxurl, // Use Localized Variable
         type: 'POST',
         data: {
+            action: "load_more_photos",
             offset: offset,
             limit: limit,
             category: categorie,
             format: format,
-            action: "load_more_photos",
         },
         beforeSend: function () {
             // Message for Loading in Progress

@@ -190,3 +190,57 @@ Stack trace:
 [07-Aug-2024 09:32:26 UTC] Categorie: 
 [07-Aug-2024 09:32:26 UTC] Format: 
 [10-Aug-2024 14:43:37 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[12-Aug-2024 19:34:52 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[12-Aug-2024 19:34:55 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[12-Aug-2024 19:35:02 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - recent
+[12-Aug-2024 19:35:04 UTC] Filter Values: Categorie - television, Format - paysage, Sort - recent
+[12-Aug-2024 19:35:09 UTC] Filter Values: Categorie - television, Format - portrait, Sort - recent
+[12-Aug-2024 19:35:13 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[12-Aug-2024 19:35:18 UTC] Filter Values: Categorie - reception, Format - portrait, Sort - 
+[12-Aug-2024 19:35:30 UTC] Filter Values: Categorie - television, Format - portrait, Sort - 
+[12-Aug-2024 19:35:35 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[12-Aug-2024 19:35:40 UTC] Filter Values: Categorie - concert, Format - , Sort - recent
+[12-Aug-2024 19:35:46 UTC] Filter Values: Categorie - , Format - paysage, Sort - 
+[12-Aug-2024 19:35:50 UTC] Filter Values: Categorie - , Format - portrait, Sort - 
+[12-Aug-2024 19:35:54 UTC] Filter Values: Categorie - , Format - portrait, Sort - 
+[12-Aug-2024 19:40:49 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[12-Aug-2024 19:40:53 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[12-Aug-2024 19:41:09 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[12-Aug-2024 19:41:12 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[14-Aug-2024 09:12:23 UTC] Filter Values: Categorie - , Format - paysage, Sort - 
+[14-Aug-2024 09:13:09 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[14-Aug-2024 09:13:17 UTC] Filter Values: Categorie - , Format - , Sort - oldest
+[14-Aug-2024 09:13:17 UTC] PHP Notice:  Undefined variable: args in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/functions.php on line 197
+[14-Aug-2024 09:19:59 UTC] Filter Values: Categorie - television, Format - , Sort - oldest
+[14-Aug-2024 09:36:31 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[14-Aug-2024 09:38:03 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[14-Aug-2024 09:38:07 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[14-Aug-2024 09:38:10 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[14-Aug-2024 09:38:15 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[14-Aug-2024 09:38:22 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[14-Aug-2024 09:38:25 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[14-Aug-2024 09:38:38 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - 
+[14-Aug-2024 09:38:48 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - recent
+[14-Aug-2024 09:38:51 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - oldest
+[14-Aug-2024 09:43:52 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[14-Aug-2024 13:38:20 UTC] Filter Values: Categorie - , Format - portrait, Sort - 
+[14-Aug-2024 13:44:02 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[14-Aug-2024 14:19:09 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[14-Aug-2024 14:19:12 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[14-Aug-2024 14:19:21 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[14-Aug-2024 14:31:37 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[14-Aug-2024 14:31:40 UTC] Filter Values: Categorie - concert, Format - portrait, Sort - 
+[14-Aug-2024 14:31:57 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[14-Aug-2024 14:40:03 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[14-Aug-2024 14:45:53 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[14-Aug-2024 14:46:04 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[14-Aug-2024 14:46:14 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[14-Aug-2024 14:46:19 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[14-Aug-2024 14:46:37 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[14-Aug-2024 14:50:09 UTC] Filter Values: Categorie - , Format - paysage, Sort - 
+[14-Aug-2024 14:51:42 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[14-Aug-2024 14:52:19 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[14-Aug-2024 14:52:40 UTC] Filter Values: Categorie - , Format - portrait, Sort - 
+[14-Aug-2024 14:53:22 UTC] Filter Values: Categorie - , Format - paysage, Sort - 
+[14-Aug-2024 15:43:28 UTC] Erreur d’événement de déplanification de tâche pour le crochet wp_delete_temp_updater_backups. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":false,"args":[]}
+[14-Aug-2024 17:11:26 UTC] Filter Values: Categorie - reception, Format - , Sort - 

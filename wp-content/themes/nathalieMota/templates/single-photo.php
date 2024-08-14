@@ -62,7 +62,7 @@ $next_thumbnail = $next_photo ? get_the_post_thumbnail_url($next_photo->ID, 'thu
     <div class="blocContact">
         <div class="contact">
             <p class="pContact">Cette photo vous intéresse ?</p>
-            <button id="contact-modal" data-reference="<?php echo esc_html ($reference); ?>">Contact</button>
+            <button id="contact-modal" data-reference="<?php echo esc_html($reference); ?>">Contact</button>
         </div>
         
         <!-- Mini Photos -->

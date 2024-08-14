@@ -16,32 +16,33 @@ add_action('after_setup_theme', 'theme_slug_setup');
 //                                  Register Menu                              //
 //-----------------------------------------------------------------------------//
     
-    // Add Function Save Custom Menus in the Theme
-    function registerMenus () {
-        register_nav_menus(
-            array(
-                'menuHeader' => 'Menu Header', // Save Menu Header
-                'menuFooter' => 'Menu Footer', // Save Menu Footer
-                )
-            );
+// Add Function Save Custom Menus in the Theme
+function registerMenus () {
+    register_nav_menus(
+        array(
+            'menuHeader' => 'Menu Header', // Save Menu Header
+            'menuFooter' => 'Menu Footer', // Save Menu Footer
+            )
+        );
     }
-// Add Menu Registration to Theme Initialization
-add_action('init', 'registerMenus');
-
-//----------------------------------------------------------------------------//
-//                                  Enqueue Styles and Scripts                //
-//----------------------------------------------------------------------------//
+    // Add Menu Registration to Theme Initialization
+    add_action('init', 'registerMenus');
+    
+    //----------------------------------------------------------------------------//
+    //                                  Enqueue Styles and Scripts                //
+    //----------------------------------------------------------------------------//
 
     // Add JQuery Library
     function librairie_jquery() {
         wp_enqueue_script('jquery.js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js', array('jquery'), '3.7.1', true);
     }
-add_action('wp_enqueue_scripts', 'librairie_jquery');
-
+    add_action('wp_enqueue_scripts', 'librairie_jquery');
+    
     // Useful Styles and Scripts for Theme
     function theme_mota_styles_scripts() {
         // Load Main Style and Use "Time" to avoid Caching
         wp_enqueue_style('nathalieMota-style', get_stylesheet_directory_uri(). '/assets/sass/style.css', array(), time());
+
     
         // Loads all Scripts to make the Site Work
         wp_enqueue_script('header', get_theme_file_uri(). '/assets/js/header.js', array('jquery'), null, true);
@@ -71,9 +72,6 @@ add_action('wp_ajax_nopriv_load_more_photos', 'load_more_photos');
 
     //... Create Function "load_more_photos"
     function load_more_photos() {
-
-        //... Retrieves Relative page Number from Post Data
-        //$page = $_POST['page']; Retiré
 
         // Check Parameters sent by AJAX
         $offset = isset($_POST['offset']) ? intval($_POST['offset']) : 0;
@@ -132,46 +130,44 @@ add_action('wp_ajax_nopriv_filter_photo', 'filter_photo');
     //... Create Function "Filter Photo"
     function filter_photo() {
         //... Collects the Filters and Cleans them
-        $filter = $_POST['filter'];
-            //... Add Debug Message
-            error_log('Filter Value : '. print_r($filter, true));
+    $categorie = isset($_POST['categorie']) ? sanitize_text_field($_POST['categorie']) : '';
+    $format = isset($_POST['format']) ? sanitize_text_field($_POST['format']) : '';
+    $sort = isset($_POST['sort']) ? sanitize_text_field($_POST['sort']) : '';
+
+   
+        //... Add Debug Message
+        error_log('Filter Values: Categorie - ' . $categorie . ', Format - ' . $format . ', Sort - ' . $sort);
+        
         //... Building the Jquery with Filters
         $args = array(
             'post_type' => 'photo',
-            'post_per_page' => -1,
+            'posts_per_page' => -1,
             'orderby' => 'date',
-            'order' => 'DESC',
-            'tax_query' => array(
-                'relation' => 'AND',
-            )
+            'order' => $sort === 'oldest' ? 'ASC' : 'DESC',
         );
 
         //... Add Filters to Tax Query if Defined
         //... Categorie
-        if(!empty($filter['categorie'])) {
-            $args['tax_query'][] = array(
-                'taxonomy' => 'categorie',
-                'field' => 'slug',
-                'terms' => $filter['categorie'],
-            );
-        }
-        //... Format
-        if(!empty($filter['format'])) {
-            $args['tax_query'] [] = array(
-                'taxonomy' => 'format',
-                'field' => 'slug',
-                'terms' => $filter['format'],
-            );
-        }
-        //... Année
-        if(!empty($filter['annee'])) {
-            $args['tax_query'] [] = array(
-                'taxonomy' => 'annee',
-                'field' => 'slug',
-                'terms' => $filter['annee'],
-            );
-        }
+        if (!empty($categorie) || !empty($format)) {
+            $args['tax_query'] = array('relation' => 'AND');
+            
+            if (!empty($categorie)) {
+                $args['tax_query'][] = array(
+                    'taxonomy' => 'categorie',
+                    'field' => 'slug',
+                    'terms' => $categorie,
+                );
+            }
 
+            if (!empty($format)) {
+                $args['tax_query'][] = array(
+                    'taxonomy' => 'format',
+                    'field' => 'slug',
+                    'terms' => $format,
+                );
+            }
+        }
+    
         //...  New Instance
         $query = new WP_Query($args);
 
@@ -185,5 +181,5 @@ add_action('wp_ajax_nopriv_filter_photo', 'filter_photo');
         } else {
             echo '<p class="selectFiltre">Aucune Photo ne correspond à la Recherche !</p>';
         }
-        die();
+        wp_die(); // End AJAX Request //
     }

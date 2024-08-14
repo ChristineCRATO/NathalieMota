@@ -17,6 +17,9 @@
         // Integration Hero Template //
         get_template_part('templates/hero');
 
+        // Integration Filter Template //
+        get_template_part('templates/filter');
+
         // Integration Photo Block Accueil Template //
         get_template_part('templates/photo_block_accueil');
 
