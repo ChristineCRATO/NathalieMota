@@ -12,43 +12,46 @@
 
 <!-- FILTER -->
 
-<div class="filter">
+<div id="filter" class="filter">
 
     <!-- Filter by Category -->
-    <select id="categorieFilter">
-        <option value="" selected disabled>Catégories</option>
+    <div id="categorieFilter" class="dropdown">
+        <button class="btnDrop">Catégories</button>
+        <ul class="listDrop">
 
         <!-- Populate Categories Dynamically -->
          <?php 
          $categories = get_terms('categorie');
          foreach($categories as $categorie) {
-            echo '<option value="'. $categorie->slug .'">'. $categorie->name .'</option>';
+            echo '<li data-value="'. esc_attr($categorie->slug).'">'. esc_html($categorie->name).'</li>';
          }
          ?>
-    </select>
+        </ul>
+    </div>
 
      <!-- Filter by Format -->
-    <select id="formatFilter">
-        <option value="" selected disabled>Formats</option>
-
+    <div id="formatFilter" class="dropdown">
+        <button class="btnDrop">Formats</button>
+        <ul class="listDrop">
+    
+        
         <!-- Populate Formats Dynamically -->
          <?php
          $formats = get_terms('format');
          foreach($formats as $format) {
-            echo '<option value="'. $format->slug .'">'. $format->name .'</option>';
+            echo '<li data-value="'. esc_attr__($format->slug).'">'. esc_html($format->name).'</li>';
          }
          ?>
-    </select>
+        </ul>
+    </div>
 
     <!-- Sort by... -->
-    <select id="sortFilter">
-        <option disabled selected>Trier par</option>
-        <option value="recent">Les Plus Récentes</option>
-        <option value="oldest">Les Plus Anciennes</option>
-    </select>
+    <div id="sortFilter" class="dropdown">
+        <button class="btnDrop">Trier par</button>
+        <ul class="listDrop">
+            <li data-value="recent">Les Plus Récentes</li>
+            <li data-value="oldest">Les Plus Anciennes</li>
+        </ul>
+    </div>
 </div>
 
-<!-- Container Display Photos -->
-<section id="photoFilter" class="initialBlock">
-    <!-- Here Photos Display -->
-</section>

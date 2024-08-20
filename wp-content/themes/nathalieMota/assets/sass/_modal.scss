@@ -40,7 +40,7 @@ body, html {
     @media (max-width: $VSD) {
         .contactModal {
             width: 80%;
-            height: 80%;
+            height: 85%;
         }
     }
 
@@ -53,54 +53,51 @@ body, html {
     background-size: contain;
     height: 7.1vw;
     overflow: hidden;
-}
-    @media (max-width: $VSD) {
-        .titleModal1 {
-            height: 14vw;
+        
+        @media (max-width: $VSD) {
+                height: 14vw;
         }
-    }
+}
 
 .labelModal {
     display: flex;
     justify-content: center;
     padding: 2.2vw 17vw;
     font-size: 0.9vw;
-}
-    @media (max-width: $VSD) {
-        .labelModal {
-            font-size: 3vw;
+        
+        @media (max-width: $VSD) {
+                font-size: 3vw;
         }
-    }
+}
 .wpcf7-text, .wpcf7-textarea {
     width: 17vw;
     border-radius: 0.5vw;
     margin-top: 0.3vw;
     border: 1px solid black;
-}
-    @media (max-width: $VSD) {
-        .wpcf7-text, .wpcf7-textarea {
-            width: 70vw;  
-            border-radius: 2.5vw; 
+        
+        @media (max-width: $VSD) {
+                width: 70vw;  
+                border-radius: 2.5vw; 
         }
-    }
+}
 .wpcf7-text {
     height: 2.7vw;
     margin-bottom: 1vw;
-}
-    @media (max-width: $VSD) {
-        .wpcf7-text {
-            height: 10vw;
+        
+        @media (max-width: $VSD) {
+            height: 7vw;
+            width: 55vw;
         }
-    }
+}
 .wpcf7-textarea {
     height: 12.5vw;
     margin-bottom: 0.3vw;
-}
-    @media (max-width: $VSD) {
-        .wpcf7-textarea {
-            height: 40vw;
+    
+        @media (max-width: $VSD) {
+        height: 30vw;
+        width: 55vw;
         }
-    }
+}
 .wpcf7-submit {
     width: 17vw;
     height: 3vw;
@@ -108,11 +105,10 @@ body, html {
     border: none;
     background-color: #D8D8D8;
     margin-bottom: 3vw;
-}
-    @media (max-width: $VSD) {
-        .wpcf7-submit{
-            width: 70vw;
-            height: 17vw;
+    
+        @media (max-width: $VSD) {
+            width: 55vw;
+            height: 10vw;
             border-radius: 2.5vw;
         }
-    }
+}

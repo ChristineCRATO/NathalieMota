@@ -244,3 +244,146 @@ Stack trace:
 [14-Aug-2024 14:53:22 UTC] Filter Values: Categorie - , Format - paysage, Sort - 
 [14-Aug-2024 15:43:28 UTC] Erreur d’événement de déplanification de tâche pour le crochet wp_delete_temp_updater_backups. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":false,"args":[]}
 [14-Aug-2024 17:11:26 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[15-Aug-2024 15:25:30 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[16-Aug-2024 18:07:47 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[16-Aug-2024 18:07:56 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 18:07:59 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 18:08:05 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 18:08:08 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 18:08:13 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 18:08:22 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[16-Aug-2024 18:08:26 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[16-Aug-2024 18:08:30 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[16-Aug-2024 19:06:51 UTC] Filter Values: Categorie - , Format - paysage, Sort - 
+[16-Aug-2024 19:06:55 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 19:06:59 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 19:07:04 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[16-Aug-2024 19:13:37 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[16-Aug-2024 19:13:40 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[16-Aug-2024 19:13:43 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[16-Aug-2024 19:16:49 UTC] Filter Values: Categorie - , Format - , Sort - recent
+[16-Aug-2024 19:16:51 UTC] Filter Values: Categorie - , Format - , Sort - recent
+[16-Aug-2024 19:16:57 UTC] Filter Values: Categorie - , Format - , Sort - oldest
+[16-Aug-2024 19:27:17 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[16-Aug-2024 19:27:22 UTC] Filter Values: Categorie - reception, Format - , Sort - oldest
+[16-Aug-2024 19:27:28 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - oldest
+[16-Aug-2024 19:27:32 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - oldest
+[16-Aug-2024 19:27:35 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - oldest
+[16-Aug-2024 19:27:37 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - oldest
+[16-Aug-2024 19:27:44 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - oldest
+[16-Aug-2024 19:42:16 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[16-Aug-2024 19:42:18 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[16-Aug-2024 19:42:21 UTC] Filter Values: Categorie - reception, Format - portrait, Sort - 
+[16-Aug-2024 19:42:26 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - 
+[16-Aug-2024 19:42:29 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[16-Aug-2024 19:42:32 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - recent
+[16-Aug-2024 19:42:34 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - oldest
+[16-Aug-2024 19:42:38 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - recent
+[16-Aug-2024 19:42:45 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - recent
+[16-Aug-2024 19:42:47 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - recent
+[16-Aug-2024 19:42:55 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - recent
+[16-Aug-2024 19:42:57 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - oldest
+[16-Aug-2024 19:43:06 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - oldest
+[16-Aug-2024 19:43:08 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - oldest
+[16-Aug-2024 19:43:09 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - recent
+[16-Aug-2024 19:55:45 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[16-Aug-2024 19:55:47 UTC] Filter Values: Categorie - reception, Format - portrait, Sort - 
+[16-Aug-2024 19:55:52 UTC] Filter Values: Categorie - reception, Format - portrait, Sort - recent
+[16-Aug-2024 19:56:38 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[16-Aug-2024 19:57:37 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[17-Aug-2024 19:07:38 UTC] Filter Values: Categorie - , Format - , Sort - recent
+[18-Aug-2024 07:24:58 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 07:25:02 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[18-Aug-2024 07:25:06 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - oldest
+[18-Aug-2024 07:35:29 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[18-Aug-2024 07:35:33 UTC] Filter Values: Categorie - concert, Format - portrait, Sort - 
+[18-Aug-2024 07:35:36 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[18-Aug-2024 07:35:38 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - oldest
+[18-Aug-2024 07:46:36 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[18-Aug-2024 07:46:39 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 07:46:43 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 07:50:19 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[18-Aug-2024 07:50:23 UTC] Filter Values: Categorie - concert, Format - portrait, Sort - 
+[18-Aug-2024 07:50:26 UTC] Filter Values: Categorie - concert, Format - portrait, Sort - recent
+[18-Aug-2024 07:50:28 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - recent
+[18-Aug-2024 07:50:31 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - oldest
+[18-Aug-2024 07:50:34 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - oldest
+[18-Aug-2024 07:50:38 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - oldest
+[18-Aug-2024 07:50:41 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - recent
+[18-Aug-2024 07:50:44 UTC] Filter Values: Categorie - reception, Format - portrait, Sort - recent
+[18-Aug-2024 07:57:21 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[18-Aug-2024 07:57:26 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 07:57:45 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[18-Aug-2024 07:57:50 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 07:59:18 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 09:01:53 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 09:01:56 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[18-Aug-2024 09:01:58 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 09:02:00 UTC] Filter Values: Categorie - television, Format - portrait, Sort - 
+[18-Aug-2024 09:05:39 UTC] PHP Notice:  Undefined variable: args in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
+[18-Aug-2024 09:05:45 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 09:07:53 UTC] PHP Notice:  Undefined variable: args in /Applications/MAMP/htdocs/nathalieMota/wp-content/themes/nathalieMota/page.php on line 32
+[18-Aug-2024 14:38:13 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:00:49 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:03:40 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:03:44 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 15:03:48 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - 
+[18-Aug-2024 15:03:50 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - oldest
+[18-Aug-2024 15:16:27 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:16:45 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:43:48 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:47:48 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:48:10 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:49:18 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:50:01 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:50:29 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:51:41 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 15:54:29 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 16:15:11 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 16:15:19 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 16:15:23 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[18-Aug-2024 16:15:50 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[18-Aug-2024 16:15:59 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 16:19:33 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[18-Aug-2024 16:19:36 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 16:20:42 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 16:22:33 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 16:22:44 UTC] Filter Values: Categorie - television, Format - paysage, Sort - 
+[18-Aug-2024 16:36:17 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 16:48:01 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 16:58:09 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 16:58:16 UTC] Filter Values: Categorie - television, Format - paysage, Sort - 
+[18-Aug-2024 16:58:21 UTC] Filter Values: Categorie - television, Format - paysage, Sort - oldest
+[18-Aug-2024 16:58:23 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - oldest
+[18-Aug-2024 16:58:29 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - recent
+[18-Aug-2024 16:58:43 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[18-Aug-2024 16:58:46 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - 
+[18-Aug-2024 16:58:49 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[18-Aug-2024 16:58:52 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - oldest
+[18-Aug-2024 16:59:00 UTC] Filter Values: Categorie - television, Format - paysage, Sort - oldest
+[18-Aug-2024 16:59:01 UTC] Filter Values: Categorie - television, Format - portrait, Sort - oldest
+[18-Aug-2024 16:59:05 UTC] Filter Values: Categorie - television, Format - portrait, Sort - recent
+[18-Aug-2024 17:30:24 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[18-Aug-2024 17:30:26 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[18-Aug-2024 17:33:58 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[18-Aug-2024 17:34:01 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[18-Aug-2024 17:34:06 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - oldest
+[18-Aug-2024 17:35:31 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:39:47 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:40:28 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:40:43 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:42:33 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:42:57 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:48:42 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:49:07 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:54:28 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[18-Aug-2024 17:54:35 UTC] Filter Values: Categorie - television, Format - portrait, Sort - 
+[18-Aug-2024 17:56:45 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[19-Aug-2024 11:34:27 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[20-Aug-2024 14:53:11 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[20-Aug-2024 14:53:18 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[20-Aug-2024 14:53:37 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - 
+[20-Aug-2024 14:53:39 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - oldest
+[20-Aug-2024 16:39:39 UTC] Filter Values: Categorie - , Format - , Sort - oldest
+[20-Aug-2024 17:31:18 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[20-Aug-2024 17:31:22 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 

@@ -20,7 +20,7 @@
         // Integration Filter Template //
         get_template_part('templates/filter');
 
-        // Integration Photo Block Accueil Template //
+        // Integration photo_block_accueil //
         get_template_part('templates/photo_block_accueil');
 
         // Integration "Load More" Button Template //

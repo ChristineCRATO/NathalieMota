@@ -171,7 +171,7 @@ add_action('wp_ajax_nopriv_filter_photo', 'filter_photo');
         //...  New Instance
         $query = new WP_Query($args);
 
-        if($query->have_posts()) {
+        if ($query->have_posts()) {
             while($query->have_posts()) {
                 $query->the_post();
 

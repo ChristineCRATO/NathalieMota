@@ -7,7 +7,7 @@
     width: 80vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 10vw;
+    margin: 3vw 10vw;
     gap: 1vw;
 
 }
@@ -22,18 +22,18 @@
             object-fit: cover;
         }
 }
-@media (max-width: $VSD) {
-    .initialBlock {
-        display: flex;
-        flex-direction: column;
+    @media (max-width: $VSD) {
+        .initialBlock {
+            display: flex;
+            flex-direction: column;
+        }
+        .photo_block {
+            width: 78vw;
+            height: 70vw;
+            padding: 1.5vw;
+        }
+        
     }
-    .photo_block {
-        width: 78vw;
-        height: 70vw;
-        padding: 1.5vw;
-    }
-    
-}
 // Photo Block Overlay //
 .overlay:hover .icon_eye,
 .overlay:hover .icon_fullscreen {
@@ -66,6 +66,11 @@
 .icon_eye {
     top: 47%;
     left: 45%;
+
+        @media (max-width: $MD) {
+            width: 4vw;
+            height: 4vw;
+        }
 }
 .icon_fullscreen {
     top: 1vw;
@@ -73,6 +78,13 @@
     width: 2vw;
     height: 2vw;
     cursor: pointer;
+
+        @media (max-width: $VSD) {
+            top: 6vw;
+            right: 6vw;
+            width: 8vw;
+            height: 8vw;
+        }
 }
 .title_overlay, .categorie_overlay {
     font-family: "Poppins-Regular", sans-serif;

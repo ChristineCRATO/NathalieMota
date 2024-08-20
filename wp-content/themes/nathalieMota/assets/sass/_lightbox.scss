@@ -3,10 +3,6 @@
 @import "fonts";
 
 // LIGHTBOX //
-
-.blockLightbox {
-
-}
 #lightbox {
     display: none;
     position: fixed;
@@ -18,58 +14,105 @@
     z-index: 1000;
 }
 .contLightbox {
-    width: 90%;
-    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    max-height: 80vw;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    object-fit: cover;
+    padding: 20vw;
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+    
+        @media (max-width: $VSD) {
+            width: 95vw;
+            max-height: 85vh;
+        }
+}
+.textLightbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .categorieLightbox, .referenceLightbox {
-    position: absolute;
+    margin: 1vh 8vh;
     font-family: "PoppinsRegular";
     font-weight: 500;
-    z-index: 1;
-    color:red;
-    top: 40vw;
+    font-size: 1.5vw;
+    color:white;
+    z-index: 2;
+    text-align: center;
+    
+        @media (max-width: $VSD) {
+            font-size: 4vw;
+            margin: 5vh 1vh;
+        }
 }
 .referenceLightbox {
-    left: 21.5vw;
+    left: 1vh;
 }
 .categorieLightbox {
-    right:21.5vw;
+    right: 1vh;
 }
 .closeLightbox {
-    position: fixed;
-    top: 3vw;
-    right: 10.5vw;
+    position: absolute;
+    top: 25vh;
+    right: 2vw;
     cursor: pointer;
+    z-index: 2;
+
+        @media (max-width: $VSD) {
+            top: 1vw;
+        }
+        @media (max-width: $MD) {
+            top: 1vw;
+        }
 }
 .previousLightbox, .nextLightbox {
-    position: fixed;
-    top: 23vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     cursor: pointer;
-        
+    z-index: 2;
+
+        @media (max-width: $VSD) {
+            top: 90%;
+        }
+    
         &:hover {
             font-weight: 900;
         }
 }
-    .previousLightbox {
-        left: 10.5vw;
-    }
-    .nextLightbox {
-        right: 10.5vw;
-    }
+.previousLightbox {
+    left: 3vw;
+}
+.nextLightbox {
+    right: 2vw;
+
+}
 .blockImgLightbox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-position: center;
-    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+
+        @media (max-width: $VSD) {
+            max-height: 50vh;
+        }
 }
 .imgLightbox {
     max-width: 100%;
-    max-height: 80%;
+    max-height: 90vh;
+    object-fit: contain;
+
+        @media (max-width: $VSD) {
+            max-height: 100%;
+        }
 }

@@ -7,30 +7,114 @@
 .filter {
     display: flex;
     justify-content: space-between;
-    margin: 0 10vw 2.5vw 10vw;
-}
-select {
-    width: 18.5vw;
-    height: 3vw;
-    border-radius: 0.4vw;
-    
-    .hide-placeholder option:first-child {
-        display: none;
-    }
-}
-.filter select {
-    padding: 0 1vw 0 1vw;
-    font-family: "PoppinsMedium";
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 1vw;
-}
+    margin: 0 10vw 3vw 10vw;
+
+        @media (max-width: $VSD) {
+            flex-direction: column;
+            align-items: center;
+            gap: 3vw;
+            margin-top: 19vw;
+            margin-bottom: 6vw;
+        }
+}   
 #categorieFilter, #formatFilter {
-    margin-right: 2vw;
+    margin-right: 3vw;
+
+        @media (max-width: $VSD) {
+            margin : 0 3vw;
+        }
 }
 #sortFilter {
     margin-left: auto;
-    margin-right: 0.5vw;
+    margin-right: 1vw;
+
+        @media (max-width: $VSD) {
+            margin : 0 3vw;
+        }
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.btnDrop {
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1vw;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 1.2vw;
+    cursor: pointer;
+
+        @media (max-width: $VSD) {
+            width: 65vw;
+            height: 10vw;
+            display: flex;
+            border-radius: 2vw;
+            font-size: 3vw;
+            text-transform: uppercase;
+            text-align: left;
+            padding: 3vw;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0.5vw;
+            height: 0.5vw;
+            top: 1.5vw;
+            right: 1vw;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            transform: rotate(45deg) translateX(-45%);
+            transition: 0.3s ease-in-out;
+
+                @media (max-width: $VSD) {
+                    width: 1.5vw;
+                    height: 1.5vw;
+                    top: 4.5vw;
+                    right: 5vw;
+
+                }
+        }
+}
+.dropdown.open .btnDrop::after {
+    transform: rotate(-135deg);
+}
+.listDrop {
+    position: absolute;
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    font-size: 12px;
+    z-index: 10;
+
+        li {
+            padding: 10px;
+            cursor: pointer;
+
+                &:hover {
+                    background-color: #FFD6D6;
+                }
+                &:active {
+                    background-color: #E00000;
+                    color: white;
+                }
+        }
+}
+.selected-option {
+    background-color: #fe5858;
+    color: white;
+}
+.dropdown.open .listDrop {
+    display: block;
 }
 #photoFilter {
     width: 80vw;
