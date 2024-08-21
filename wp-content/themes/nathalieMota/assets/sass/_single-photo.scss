@@ -17,6 +17,7 @@
         img {
             width: 100%;
             height: 57.5vw;
+            object-fit: cover;
         }
 }
 .detailPhoto {
@@ -91,6 +92,9 @@
 
         @media (max-width: $VSD) {
             align-items: center;
+        }
+        @media (max-width: $SD) {
+            gap: 30vw !important;
         }
         @media (max-width: $XXLD) {
             gap: 35vw;
@@ -203,6 +207,16 @@
 .arrow {
     margin-top: 2vw;
     margin-bottom: 0.5vw;
+
+        img {
+            width: 3vw !important;
+        }
+
+        @media (max-width: $XXLD) {
+            img {
+                width: 3.5vw;
+            }
+        }
 }
 .arrow-left {
     margin-right: 1.5vw;

@@ -46,6 +46,7 @@
     border: 1px solid #ccc;
     background-color: #fff;
     font-size: 1.2vw;
+    text-transform: uppercase;
     cursor: pointer;
 
         @media (max-width: $VSD) {
@@ -54,7 +55,6 @@
             display: flex;
             border-radius: 2vw;
             font-size: 3vw;
-            text-transform: uppercase;
             text-align: left;
             padding: 3vw;
         }

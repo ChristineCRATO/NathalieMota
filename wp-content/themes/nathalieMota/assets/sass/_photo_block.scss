@@ -67,9 +67,13 @@
     top: 47%;
     left: 45%;
 
+        @media (max-width: $VSD) {
+            width: 10vw !important;
+            height: 10vw;
+        }
         @media (max-width: $MD) {
             width: 4vw;
-            height: 4vw;
+            height: 6vw;
         }
 }
 .icon_fullscreen {
@@ -82,8 +86,12 @@
         @media (max-width: $VSD) {
             top: 6vw;
             right: 6vw;
-            width: 8vw;
+            width: 8vw !important;
             height: 8vw;
+        }
+        @media (max-width: $MD) {
+            width: 3vw;
+            height: auto;
         }
 }
 .title_overlay, .categorie_overlay {

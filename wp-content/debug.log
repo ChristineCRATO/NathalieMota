@@ -387,3 +387,21 @@ Stack trace:
 [20-Aug-2024 16:39:39 UTC] Filter Values: Categorie - , Format - , Sort - oldest
 [20-Aug-2024 17:31:18 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
 [20-Aug-2024 17:31:22 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[20-Aug-2024 18:33:56 UTC] Erreur d’événement de replanification de tâche pour le crochet ewww_image_optimizer_relative_migration. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"ewwwio_relative_migration_interval","args":[],"interval":300}
+[21-Aug-2024 07:45:29 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[21-Aug-2024 07:45:34 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[21-Aug-2024 07:45:40 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - oldest
+[21-Aug-2024 07:46:13 UTC] Filter Values: Categorie - television, Format - paysage, Sort - oldest
+[21-Aug-2024 07:46:27 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - oldest
+[21-Aug-2024 07:46:29 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - oldest
+[21-Aug-2024 07:46:30 UTC] Filter Values: Categorie - mariage, Format - portrait, Sort - recent
+[21-Aug-2024 07:53:29 UTC] Filter Values: Categorie - mariage, Format - , Sort - 
+[21-Aug-2024 07:53:32 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - 
+[21-Aug-2024 07:53:40 UTC] Filter Values: Categorie - mariage, Format - paysage, Sort - recent
+[21-Aug-2024 08:07:10 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[21-Aug-2024 10:09:35 UTC] Filter Values: Categorie - television, Format - , Sort - 
+[21-Aug-2024 10:09:59 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[21-Aug-2024 10:10:03 UTC] Filter Values: Categorie - concert, Format - , Sort - 
+[21-Aug-2024 10:10:08 UTC] Filter Values: Categorie - concert, Format - portrait, Sort - 
+[21-Aug-2024 10:10:11 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
+[21-Aug-2024 10:10:15 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - oldest
