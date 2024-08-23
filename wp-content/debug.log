@@ -405,3 +405,10 @@ Stack trace:
 [21-Aug-2024 10:10:08 UTC] Filter Values: Categorie - concert, Format - portrait, Sort - 
 [21-Aug-2024 10:10:11 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - 
 [21-Aug-2024 10:10:15 UTC] Filter Values: Categorie - concert, Format - paysage, Sort - oldest
+[21-Aug-2024 16:30:45 UTC] Filter Values: Categorie - reception, Format - , Sort - 
+[21-Aug-2024 16:30:47 UTC] Filter Values: Categorie - reception, Format - portrait, Sort - 
+[21-Aug-2024 16:30:50 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - 
+[21-Aug-2024 16:30:53 UTC] Filter Values: Categorie - reception, Format - paysage, Sort - recent
+[22-Aug-2024 20:17:14 UTC] PHP Warning:  Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Applications/MAMP/htdocs/nathalieMota/wp-includes/update.php on line 449
+[23-Aug-2024 07:56:54 UTC] PHP Warning:  Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Applications/MAMP/htdocs/nathalieMota/wp-includes/update.php on line 730
+[23-Aug-2024 14:49:23 UTC] Filter Values: Categorie - television, Format - , Sort - 
